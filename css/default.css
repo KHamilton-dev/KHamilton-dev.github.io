@@ -58,6 +58,10 @@ time, mark, audio, video {
    background: transparent;
 }
 
+html, body {
+   width: 100%;
+}
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
    display: block;
