@@ -6,8 +6,10 @@ export default class Header extends Component {
       <React.Fragment>
         <header id="home">
           <nav id="nav-wrap">
-            <ul id="nav" className="nav">
-              <li className="current">
+            <ul id="nav" className="nav opaque">
+              <li 
+              // className="current"
+              >
                 <a className="smoothscroll" href="#home">
                   Home
                 </a>
