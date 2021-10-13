@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 100vh;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/starhorizon.jpg) no-repeat top center;
@@ -91,7 +91,7 @@ header .social {
 }
 header .social li {
    display: inline-block;
-   margin: 0 15px;
+   margin: 0 30px;
    padding: 0;
 }
 header .social li a { color: #fff; }
@@ -292,6 +292,7 @@ ul#nav li.current a { color: #F06000; }
 	text-align: left;
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
 }
 
 .bars img {
@@ -390,15 +391,25 @@ ul#nav li.current a { color: #F06000; }
    flex-wrap: wrap;
 }
 
+.portfolio-content h5 {
+   text-align: center;
+   margin-bottom: 15px;
+}
+
 .portfolio-content p {
    text-align: center;
+   margin-top: 10px;
+   margin-bottom: 50px;
    font: 15px/24px;
-   max-width: 400px;
 }
 
 .portfolio-content img {
-   max-width: 400px;
    object-fit: contain;
+}
+
+.portfolio-content > .col {
+   margin: 0px 10%;
+   max-width: 600px;
 }
 
 #portfolio-wrapper .columns { margin-bottom: 36px; }
