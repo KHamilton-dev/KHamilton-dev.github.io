@@ -58,6 +58,10 @@ time, mark, audio, video {
    background: transparent;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 html, body {
    width: 100%;
 }
