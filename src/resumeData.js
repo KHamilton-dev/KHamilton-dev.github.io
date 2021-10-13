@@ -22,7 +22,7 @@ let resumeData = {
     "aboutme":"resumeData.aboutme",
     "education":[
       {
-        "UniversityName":"Thinkfully",
+        "UniversityName":"Thinkful",
         "specialization":"Software Engineering",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2021",
