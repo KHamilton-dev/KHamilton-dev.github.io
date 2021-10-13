@@ -4,7 +4,7 @@ export default class Porfolio extends Component {
   render() {
     return (
       <section id="portfolio">
-        <h1>Check Out Some of My Works.</h1>
+        <h1>Check Out Some of My Works</h1>
         <div className="portfolio-content">
           <div 
           className="col"

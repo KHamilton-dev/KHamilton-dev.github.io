@@ -1,12 +1,21 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    // const [navbar, setNavbar] = useState(false);
+
+    // const changeBackground = () => {
+    //   if (window.scrollY >= 80) setNavbar(true);
+    //   else setNavbar(false);
+    // }
+
+    // window.addEventListener('scroll', changeBackground)
+
     return (
       <React.Fragment>
         <header id="home">
           <nav id="nav-wrap">
-            <ul id="nav" className="nav opaque">
+            <ul id="nav" className="nav">
               <li 
               // className="current"
               >
@@ -35,7 +44,7 @@ export default class Header extends Component {
                 </a>
               </li> */}
               <li>
-                <a className="smoothscroll" href="#contact">
+                <a className="smoothscroll" href="javascript: document.body.scrollIntoView(false);">
                   Contact
                 </a>
               </li>
