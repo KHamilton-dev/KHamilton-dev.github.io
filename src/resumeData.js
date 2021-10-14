@@ -35,27 +35,27 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Garlic Knot",
-        "specialization":"Driver",
-        "Beginning":"Jan 2014",
+        "CompanyName":"Private Practice",
+        "specialization":"Massage Therapist",
+        "Beginning":"August 2010",
         "End":"Current",
-        "Total": "5 years",
+        "Total": "11 years",
         "Achievements": [
-          "Calculated the most efficient and effective path to delivering customer orders",
-          "Routinely outperformed expected deliveries per hour set forth by management",
-          "Demonstrated professionalism by addressing any customer's issues in a poilte and courteous manner"
+          "Troubleshoot clients’ biokinetic issue",
+          "Set forth a plan of action to increase clients’ quality of life",
+          "Adjust techniques to cater to clients’ specific issues"
         ]
       },
       {
-        "CompanyName":"Carrabba's",
-        "specialization":"Coordinator",
-        "Beginning":"Mar 2019",
-        "End":"Current",
-        "Total": "2 years",
+        "CompanyName":"Living Well Transitions",
+        "specialization":"Massage Therapist",
+        "Beginning":"August 2010",
+        "End":"October 2017",
+        "Total": "7 years",
         "Achievements": [
-          "Ensured customer satisfaction through prompt and respectful service",
-          "Showcased organizational abilities by choreographing dozens of orders simulataneously",
-          "Educated new employees on computer systems POS"
+          "Increased participants’ comfort during transitional period in life",
+          "Alleviated participants’ stress and kinetic dysfunction",
+          "Demonstrated utmost professionalism and courtesy"
         ]
       }
     ],

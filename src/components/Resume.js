@@ -55,7 +55,7 @@ export default class Resume extends Component {
                           {item.Beginning} - {item.End}
                         </em>
                       </p>
-                      <div style={{ marginBottom: 20 }}>
+                      <div style={{ marginBottom: 30 }}>
                         {item.Achievements.map((item, index) => {
                           return <p key={index}>{item}</p>;
                         })}
