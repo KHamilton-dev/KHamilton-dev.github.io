@@ -41,7 +41,7 @@ let resumeData = {
         "End":"Current",
         "Total": "11 years",
         "Achievements": [
-          "Troubleshoot clients’ biokinetic issue",
+          "Troubleshoot clients’ biokinetic issues",
           "Set forth a plan of action to increase clients’ quality of life",
           "Adjust techniques to cater to clients’ specific issues"
         ]
