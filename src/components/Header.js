@@ -2,14 +2,6 @@ import React, { Component, useState } from "react";
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
-    // const [navbar, setNavbar] = useState(false);
-
-    // const changeBackground = () => {
-    //   if (window.scrollY >= 80) setNavbar(true);
-    //   else setNavbar(false);
-    // }
-
-    // window.addEventListener('scroll', changeBackground)
 
     return (
       <React.Fragment>
